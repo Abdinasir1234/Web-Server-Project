@@ -1,0 +1,17 @@
+This file is for the things that i learned along the way that may be usfull later on. OBS!! the comments are in swedish 
+
+***Express**.-.ö-.ö,
+res.send("Hi") - om du vill skriva något på hemsidan 
+
+res.status(500).send('EROR 500') -om du vill skicka status plus ett medelande på hemsidan 
+
+res.status(500).json({messige:"Eror"}); -om du vill ha medelande i json format 
+
+res.json({messige:"Eror"}); - json medelande utan status 
+
+res.download('server.js') - om du vill ladda ner en fil till klienten 
+
+res.render('index',{text:"world"})  -renderar ejs(typ som html) till hemsidan, text är en variabel där jag sparade strägen world och där med kan index användda den
+
+***EJS kod*** 
+<%= text %> - <% säger till att vi startar en kod , = säger att lägga det vi får på texten 
